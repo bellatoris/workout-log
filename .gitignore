@@ -22,3 +22,6 @@ yarn-error.log*
 
 # aws config
 accessKeys.csv
+
+# vscode
+.vscode
