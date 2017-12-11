@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 
-FILES=$(git diff --cached | pep8 --diff)
+FILES=$(git diff --cached | pycodestyle --diff)
 if [ -n "$FILES" ]; then
     echo $FILES
     exit 1
